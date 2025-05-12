@@ -7,7 +7,7 @@ import Filters from "@/components/filters";
 export default async function Page() {
   return (
     <>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense>
         <Filters items={vehicles} />
         <ItemsTable items={vehicles} />
       </Suspense>
