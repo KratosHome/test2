@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import clsx from "clsx";
 
-import { Providers } from "./providers";
+import { Providers } from "@/components/providers";
 
 export default function RootLayout({
   children,
